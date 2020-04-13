@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mysite{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F
+}
+.mysite2{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+.image{
+	height: 70px;
+	width: 200px;
+	float: left;
+	background-image: url(img/logo.png);
+	background-position: center;
+	background-size: cover;
+}
+.nav{
+	display: inline-block;
+	float: right;
+}
+.nav-list{
+	text-align: left;
+}
+.nav-list-item{
+	display: inline-block;
+	float: left;
+	margin: 0 30px;
+	font-size: 16px;
+	line-height: 70px;
+}
+.LoremIpsum{
+	margin-top: 0;
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-position: center;
+	background-size: cover;
+	padding-top: 200px;
+}
+.main{
+	color: #FAFAFA;
+	font-size: 64px;
+	text-align: center;
+}
+.main2{
+	color: #FAFAFA;
+	font-size: 20px;
+	text-align: center;
+}
+.main-visual{
+	width: 920px;
+	margin: 90px auto;
+}
+.portfolio{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+.underline{
+	height: 0;
+	width: 70px;
+	border: 3px solid #EC715F;
+	margin: 8px auto 30px;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+.text{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.img1{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	background-image: url(img/sketch.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.img2{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	background-image: url(img/websuku.png);
+	background-position: center;
+	background-size: cover;
+}
+.img3{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/write.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.img4{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 90px;
+	background-image: url(img/webcamp.png);
+	background-position: center;
+	background-size: cover;
+}
+.img5{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 90px;
+	background-image: url(img/talk.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.img6{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 90px;
+	background-image: url(img/webcamp-mother.png);
+	background-position: center;
+	background-size: cover;
+}
+.Feature{
+	width: 980px;
+	margin: 90px auto;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.Feature-title{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+.Feature-text{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.strength1{
+	float: left;
+	width: 320px;
+	text-align: center;
+	margin-right: 10px;
+}
+.strength1 h2{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.fab{
+	font-size: 60px;
+}
+.strength2{
+	float: left;
+	width: 320px;
+	text-align: center;
+	margin-right: 10px;
+}
+.strength2 h2{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.strength3{
+	float: left;
+	width: 320px;
+	text-align: center;
+}
+.strength3 h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.Profile{
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.Profile1{
+	text-align: center;
+}
+.text{
+	text-align: center;
+}
+.Profile2{
+	width: 512px;
+	float: left;
+}
+.iconimg{
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.profile3{
+	width: 512px;
+	float: right;
+}
+.MyName{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;	
+}
+.text1{
+	font-size: 16px;
+}
+.MySkills{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.MySkills2{
+	font-size: 16px;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.contact{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.contact-head{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	margin-top: 90px;
+}
+.contact p{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.MAIL{
+	width: 400px;
+	float: left;
+	padding-top: 30px;
+}
+.mail{
+	margin-bottom: 20px;
+}
+.SNS h1{
+	font-size: 20px;
+	margin-top: 30px;
+}
+.SNS i{
+	margin-top: 5px;
+	margin-right: 20px;
+}
+footer{
+	background-color: #EC715F;
+	height: 60px;
+}
+.footer-text{
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
+	color: #FAFAFA;
+}
+@media screen and (max-width: 767px){
+	*{
+		width: 100%;
+	}
+	.mysite{
+		width: 100%;
+		height: 50px;
+		padding: 3px;
+	}
+	.mysite2{
+		width: 90%;
+	}
+	.image{
+		height: 50px;
+		width: 170px;
+		background-size: 170px 50px;
+		background-position: center;
+	}
+	.LoremIpsum{
+		width: 100%;
+		padding-top: 200px;
+		background-image: url(img/code.png);
+	}
+	.main{
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.main2{
+		font-size: 18px;
+
+	}
+	.nav-list-item{
+		display: none;
+	}
+	.main-visual{
+		width: 90%;
+	}
+	.portfolio{
+		font-size: 32px;
+		margin-bottom: 8px;
+	}
+	.img1{
+		display: none;
+	}
+	.img2{
+		width: 100%;
+		margin: 10px auto;
+	}
+	.img3{
+		display: none;
+	}
+	.img4{
+		width: 100%;
+		margin: 10px auto;
+	}
+	.img5{
+		display: none;
+	}
+	.img6{
+		width: 100%;
+		margin-bottom: 90px;
+	}
+	.Feature{
+		width: 100%;
+	}
+	.Feature-title{
+		font-size: 32px;
+		margin-top: 90px;
+	}
+	.strength1{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.strength1 i{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.strength1 h2{
+		margin: 10px auto;
+	}
+	.strength2{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.strength2 i{
+		margin-top: 30px;
+	}
+	.strength2 h2{
+		margin: 10px auto;
+	}
+	.strength3{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.strength3 i{
+		margin-top: 30px;
+	}
+	.strength3 h2{
+		margin: 10px auto;
+	}
+	.Profile{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.Profile1{
+		margin-top: 90px;
+	}
+	.Profile2{
+		text-align: center;
+	}
+	.iconimg{
+		margin-left: 70px;
+		margin-bottom: 20px;
+	}
+	.MyName{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	.text1{
+		margin-top: 5px;
+		text-align: center;
+	}
+	.MySkills{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	.MySkills2{
+		text-align: center;
+	}
+	.contact{
+		width: 100%;
+	}
+	.MAIL{
+		text-align: center;
+	}
+	.SNS{
+		text-align: center;
+	}
+	.SNS i{
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		text-align: center;
+		margin-right: 8px;
+	}
+}
