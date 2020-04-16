@@ -36,6 +36,9 @@
 	line-height: 70px;
 	color: #FAFAFA;
 }
+.mysite2 i{
+	display: none;
+}
 .LoremIpsum{
 	margin-top: 0;
 	height: 650px;
@@ -316,12 +319,25 @@ footer{
 	.mysite2{
 		width: 90%;
 	}
+	.mysite2 i{
+		color: white;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		font-size: 35px;
+		border: solid white;
+		text-align: center;
+	}
 	.image{
 		height: 50px;
 		width: 170px;
 		background-size: 170px 50px;
 		background-position: center;
 	}
+
 	.LoremIpsum{
 		width: 100%;
 		padding-top: 200px;
@@ -338,6 +354,7 @@ footer{
 	.nav-list-item{
 		display: none;
 	}
+
 	.main-visual2{
 		width: 90%;
 	}
