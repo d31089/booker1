@@ -34,6 +34,7 @@
 	margin: 0 30px;
 	font-size: 16px;
 	line-height: 70px;
+	color: #FAFAFA;
 }
 .LoremIpsum{
 	margin-top: 0;
@@ -48,6 +49,7 @@
 	color: #FAFAFA;
 	font-size: 64px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 .main2{
 	color: #FAFAFA;
@@ -55,6 +57,12 @@
 	text-align: center;
 }
 .main-visual{
+	width: 100%;
+	background-color: #ECEFF1;
+	background-size: cover;
+	overflow: hidden;
+}
+.main-visual2{
 	width: 920px;
 	margin: 90px auto;
 }
@@ -190,6 +198,11 @@
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+.Profile-main{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
 .Profile{
 	width: 1024px;
 	margin: 0 auto;
@@ -255,14 +268,22 @@
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	font-size: 16px;
 }
 .MAIL{
 	width: 400px;
 	float: left;
 	padding-top: 30px;
 }
+.MAIL h1{
+	font-size: 20px;
+}
 .mail{
+	margin-top: 5px;
 	margin-bottom: 20px;
+}
+.denwa{
+	margin-top: 5px;
 }
 .SNS h1{
 	font-size: 20px;
@@ -271,6 +292,7 @@
 .SNS i{
 	margin-top: 5px;
 	margin-right: 20px;
+	font-size: 50px;
 }
 footer{
 	background-color: #EC715F;
@@ -316,7 +338,7 @@ footer{
 	.nav-list-item{
 		display: none;
 	}
-	.main-visual{
+	.main-visual2{
 		width: 90%;
 	}
 	.portfolio{
@@ -327,22 +349,22 @@ footer{
 		display: none;
 	}
 	.img2{
-		width: 100%;
-		margin: 10px auto;
+		float: none;
+		margin: 30px auto 10px;
 	}
 	.img3{
 		display: none;
 	}
 	.img4{
-		width: 100%;
+		float: none;
 		margin: 10px auto;
 	}
 	.img5{
 		display: none;
 	}
 	.img6{
-		width: 100%;
-		margin-bottom: 90px;
+		float: none;
+		margin: 10px auto 90px;
 	}
 	.Feature{
 		width: 100%;
@@ -355,8 +377,11 @@ footer{
 		width: 90%;
 		margin: 0 5%;
 	}
+	.fab{
+		font-size: 60px;
+		margin-bottom: 10px;
+	}
 	.strength1 i{
-		text-align: center;
 		margin-top: 30px;
 	}
 	.strength1 h2{
@@ -367,7 +392,7 @@ footer{
 		margin: 0 5%;
 	}
 	.strength2 i{
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 	.strength2 h2{
 		margin: 10px auto;
@@ -377,10 +402,14 @@ footer{
 		margin: 0 5%;
 	}
 	.strength3 i{
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 	.strength3 h2{
 		margin: 10px auto;
+	}
+	.Profile-main{
+		width: 90%;
+		margin: 0 auto;
 	}
 	.Profile{
 		width: 90%;
@@ -390,16 +419,17 @@ footer{
 		margin-top: 90px;
 	}
 	.Profile2{
-		text-align: center;
+		width: 100%;
+		margin: 0 auto;
 	}
 	.iconimg{
-		margin-left: 70px;
-		margin-bottom: 20px;
+		margin: 30px auto 20px;
 	}
 	.MyName{
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 5px;
+		font-size: 20px;
 	}
 	.text1{
 		margin-top: 5px;
@@ -415,18 +445,35 @@ footer{
 	}
 	.contact{
 		width: 100%;
+		margin: 0 auto;
 	}
 	.MAIL{
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+	.MAIL h1{
 		text-align: center;
+	}
+	.mail{
+		text-align: center;
+	}
+	.denwa{
+		text-align: center;
+		margin-bottom: 20px;
 	}
 	.SNS{
+		width: 90%;
+		margin: 0 auto;
 		text-align: center;
 	}
-	.SNS i{
+	.SNS h1{
+		margin-top: 20px;
+	}
+	.socialicon{
 		display: inline-block;
-		height: 50px;
-		width: 50px;
-		text-align: center;
 		margin-right: 8px;
+		width: 50px;
 	}
+
 }
