@@ -39,7 +39,7 @@
 .mysite2 i{
 	display: none;
 }
-.LoremIpsum{
+.loremipsum{
 	margin-top: 0;
 	height: 650px;
 	width: 100%;
@@ -146,7 +146,7 @@
 	background-position: center;
 	background-size: cover;
 }
-.Feature{
+.feature{
 	width: 980px;
 	margin: 90px auto;
 }
@@ -155,12 +155,12 @@
 	display: block;
 	clear: both;
 }
-.Feature-title{
+.feature-title{
 	font-size: 32px;
 	color: #000000;
 	text-align: center;
 }
-.Feature-text{
+.feature-text{
 	font-size: 16px;
 	color: #000000;
 	text-align: center;
@@ -201,23 +201,24 @@
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
-.Profile-main{
+.profile-main{
 	width: 100%;
 	background-color: #ECEFF1;
 	padding: 90px 0;
+	overflow: hidden;
 }
-.Profile{
+.profile{
 	width: 1024px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
-.Profile1{
+.profile1{
 	text-align: center;
 }
 .text{
 	text-align: center;
 }
-.Profile2{
+.profile2{
 	width: 512px;
 	float: left;
 }
@@ -235,7 +236,7 @@
 	width: 512px;
 	float: right;
 }
-.MyName{
+.myname{
 	margin-top: 30px;
 	margin-bottom: 20px;
 	font-size: 20px;	
@@ -243,12 +244,12 @@
 .text1{
 	font-size: 16px;
 }
-.MySkills{
+.myskills{
 	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
-.MySkills2{
+.myskills2{
 	font-size: 16px;
 }
 .clearfix::after{
@@ -273,26 +274,25 @@
 	margin-bottom: 30px;
 	font-size: 16px;
 }
-.MAIL{
+.mail1{
 	width: 400px;
 	float: left;
-	padding-top: 30px;
 }
-.MAIL h1{
+.mail1 h1{
 	font-size: 20px;
 }
-.mail{
+.mail2{
 	margin-top: 5px;
 	margin-bottom: 20px;
 }
-.denwa{
+.tel{
 	margin-top: 5px;
 }
-.SNS h1{
+.sns h1{
 	font-size: 20px;
 	margin-top: 30px;
 }
-.SNS i{
+.sns i{
 	margin-top: 5px;
 	margin-right: 20px;
 	font-size: 50px;
@@ -338,7 +338,7 @@ footer{
 		background-position: center;
 	}
 
-	.LoremIpsum{
+	.loremipsum{
 		width: 100%;
 		padding-top: 200px;
 		background-image: url(img/code.png);
@@ -383,10 +383,10 @@ footer{
 		float: none;
 		margin: 10px auto 90px;
 	}
-	.Feature{
+	.feature{
 		width: 100%;
 	}
-	.Feature-title{
+	.feature-title{
 		font-size: 32px;
 		margin-top: 90px;
 	}
@@ -424,25 +424,27 @@ footer{
 	.strength3 h2{
 		margin: 10px auto;
 	}
-	.Profile-main{
-		width: 90%;
-		margin: 0 auto;
+	.profile-main{
+		width: 100%;
 	}
-	.Profile{
+	.profile{
 		width: 90%;
 		margin: 0 5%;
 	}
-	.Profile1{
+	.profile1{
 		margin-top: 90px;
 	}
-	.Profile2{
+	.profile2{
 		width: 100%;
 		margin: 0 auto;
 	}
 	.iconimg{
 		margin: 30px auto 20px;
 	}
-	.MyName{
+	.profile3{
+		width: 100%;
+	}
+	.myname{
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 5px;
@@ -452,39 +454,39 @@ footer{
 		margin-top: 5px;
 		text-align: center;
 	}
-	.MySkills{
+	.myskills{
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 5px;
 	}
-	.MySkills2{
+	.myskills2{
 		text-align: center;
 	}
 	.contact{
 		width: 100%;
 		margin: 0 auto;
 	}
-	.MAIL{
+	.mail1{
 		width: 90%;
 		margin: 0 auto;
 		float: none;
 	}
-	.MAIL h1{
+	.mail1 h1{
 		text-align: center;
 	}
-	.mail{
+	.mail2{
 		text-align: center;
 	}
-	.denwa{
+	.tel{
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	.SNS{
+	.sns{
 		width: 90%;
 		margin: 0 auto;
 		text-align: center;
 	}
-	.SNS h1{
+	.sns h1{
 		margin-top: 20px;
 	}
 	.socialicon{
